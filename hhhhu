@@ -34,48 +34,48 @@ local MiscTab = MakeTab({Name = "Misc"})
 AddButton(FarmTab, {
     Name = "Auto Farm Level",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/auto_farm/main/script.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hiepok99/hh/refs/heads/main/hhhhu"))()
     end
 })
 
 AddButton(FarmTab, {
     Name = "Auto Farm Bounty",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/auto_bounty/main/script.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hiepok99/hh/refs/heads/main/hhhhu"))()
     end
 })
 
 AddButton(CombatTab, {
     Name = "Kill Aura",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/kill_aura/main/script.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hiepok99/hh/refs/heads/main/hhhhu"))()
     end
 })
 
 AddButton(CombatTab, {
     Name = "Auto Haki",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/auto_haki/main/script.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hiepok99/hh/refs/heads/main/hhhhu"))()
     end
 })
 
 AddButton(MiscTab, {
     Name = "ESP Players & Bosses",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/esp/main/script.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hiepok99/hh/refs/heads/main/hhhhu"))()
     end
 })
 
 AddButton(MiscTab, {
     Name = "Teleport Hack",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/teleport/main/script.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hiepok99/hh/refs/heads/main/hhhhu"))()
     end
 })
 
 AddButton(MiscTab, {
     Name = "Anti Ban",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/anti_ban/main/script.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hiepok99/hh/refs/heads/main/hhhhu"))()
     end
 })

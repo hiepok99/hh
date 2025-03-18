@@ -1,0 +1,81 @@
+--// BLOX FRUITS OP SCRIPT //
+
+local Window = MakeWindow({
+    Hub = {
+        Title = "TBoy Roblox - OP Script",
+        Animation = "Youtube: TBoy Roblox"
+    },
+    Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Keys = {"1234"},
+        Notifi = {
+            Notifications = true,
+            CorrectKey = "Running the Script...",
+            Incorrectkey = "The key is incorrect"
+        }
+    }
+})
+
+MinimizeButton({
+    Image = "http://www.roblox.com/asset/?id=83190276951914",
+    Size = {60, 60},
+    Color = Color3.fromRGB(10, 10, 10),
+    Corner = true,
+    Stroke = false
+})
+
+------ Tabs
+local FarmTab = MakeTab({Name = "Auto Farm"})
+local CombatTab = MakeTab({Name = "Combat"})
+local MiscTab = MakeTab({Name = "Misc"})
+
+------- BUTTONS
+AddButton(FarmTab, {
+    Name = "Auto Farm Level",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/auto_farm/main/script.lua"))()
+    end
+})
+
+AddButton(FarmTab, {
+    Name = "Auto Farm Bounty",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/auto_bounty/main/script.lua"))()
+    end
+})
+
+AddButton(CombatTab, {
+    Name = "Kill Aura",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/kill_aura/main/script.lua"))()
+    end
+})
+
+AddButton(CombatTab, {
+    Name = "Auto Haki",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/auto_haki/main/script.lua"))()
+    end
+})
+
+AddButton(MiscTab, {
+    Name = "ESP Players & Bosses",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/esp/main/script.lua"))()
+    end
+})
+
+AddButton(MiscTab, {
+    Name = "Teleport Hack",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/teleport/main/script.lua"))()
+    end
+})
+
+AddButton(MiscTab, {
+    Name = "Anti Ban",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/example/anti_ban/main/script.lua"))()
+    end
+})
